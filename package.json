@@ -2,7 +2,7 @@
   "name": "sample_app",
   "version": "1.0.0",
   "description": "sample app",
-  "author": "yacchi",
+  "author": "",
   "private": true,
   "scripts": {
     "dev": "nuxt",
