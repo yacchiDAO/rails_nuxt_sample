@@ -1,6 +1,9 @@
 FROM ruby:2.7.1
 ARG WORKDIR
 
+ENV LANG=C.UTF-8 \
+    TZ=Asia/Tokyo
+
 RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
 
 # rails 6ではyarnが必要
